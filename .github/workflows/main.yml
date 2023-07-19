@@ -86,4 +86,4 @@ build_and_push_to_docker_hub:
           # Для каждого пересобранного образа 
           # устанавливаем тег latest, чтобы потом
           # на сервере и в docker-compose.yml не указывать версию
-          tags: masterekb/taski_backend:latest
+          tags: practicumy/taski_backend:latest
